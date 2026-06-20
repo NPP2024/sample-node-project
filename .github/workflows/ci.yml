@@ -27,7 +27,7 @@ jobs:
       - name: Run ESlint
         run: npm run lint
       - name: Build and Push Docker Image
-          uses: mr-smithers-excellent/docker-build-push@v7
+          uses: mr-smithers-excellent/docker-build-push@v4
           with:
             image: npp2024/samplenodejs
             registry: docker.io
